@@ -1,14 +1,10 @@
-# T460s-OpenCore-IntelWifi
-*aka the Poor Man's Production Machine with no WiFi dongles & AliExpress cards*
-
-Install MacOS Catalina 10.15.6 on T460s laptops with built-in Intel Wireless.
-
-**Using OpenCore 0.5.9!**
-
+# ThinkPad T460s with OpenCore & Experimental Intel WiFi
 
 ***
 
 ### Latest working macOS: 10.15.6 (Big Sur support coming soon!)
+
+**Using OpenCore 0.5.9!**
 
 ***
 
