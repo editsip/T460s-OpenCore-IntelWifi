@@ -1,6 +1,5 @@
 # ThinkPad T460s with OpenCore & Experimental Intel WiFi
 
-***
 
 ### Latest working macOS: 10.15.6 (Big Sur support coming soon!)
 
