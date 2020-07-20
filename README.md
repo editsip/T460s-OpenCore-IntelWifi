@@ -51,6 +51,8 @@ It is mandatory to install [HeliPort](https://github.com/OpenIntelWireless) to m
 
 SMBIOS should be fine for any laptop but I **STRONGLY** recommend to generate a new Serial Number and UUID to use Apple services. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) does this.
 
+I also suggest [enabling HiDPI support](https://github.com/xzhih/one-key-hidpi) on 1080p and 1440p screens. **hidpi.command** already included in the repo.
+
 **Airdrop & Handoff are not supported yet.**
 
 
