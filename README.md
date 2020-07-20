@@ -3,7 +3,12 @@
 
 Install MacOS Catalina 10.15.6 on T460s laptops with built-in Intel Wireless.
 
-**BIG SUR BRANCH COMING SOON**
+
+***
+
+### Latest working macOS: 10.15.6 (Big Sur support coming soon!)
+
+***
 
 
 ## Introduction
@@ -17,11 +22,7 @@ Thanks to [acidanthera](https://github.com/acidanthera) for OpenCore, [mszturc](
 
 Grazie a [simprecicchiani](https://github.com/simprecicchiani) for being the first to build a complete OC configuration for T460s.
 
-***
 
-### Latest working macOS: 10.15.6
-
-***
 
 ## Cut to the chase
 
