@@ -1,14 +1,14 @@
 # T460s-OpenCore-IntelWifi
-**aka the Poor Man's Production Machine with no WiFi dongles & AliExpress cards**
+*aka the Poor Man's Production Machine with no WiFi dongles & AliExpress cards*
 
 Install MacOS Catalina 10.15.6 on T460s laptops with built-in Intel Wireless.
+
 **BIG SUR BRANCH COMING SOON**
 
-***
 
 ## Introduction
 
-This will allow you to install and use macOS + OpenCore on any T460s model, with native [Intel Wireless and Bluetooth](https://github.com/OpenIntelWireless) support. Please note that this is experimental and still under development, so *it may be unstable or outright not working.*
+This will allow you to install and use macOS + OpenCore on any T460s model, with native [Intel Wireless and Bluetooth](https://github.com/OpenIntelWireless) support. Please note that this is experimental and still under development, so **it may be unstable or outright not working.**
 Repo is updated regularly and I plan on mantaining it for a long time. 
 
 If you're new to this I suggest reading [Dortania's](https://dortania.github.io) guide on how to install macOS. This OC configuration may work for you but you'd be better off learning how it works and rebuilding your configuration & SSDTs. 
@@ -23,9 +23,9 @@ Grazie a [simprecicchiani](https://github.com/simprecicchiani) for being the fir
 
 ***
 
-## So how do I do it
+## Cut to the chase
 
-*MAKE SURE YOUR LENOVO BIOS IS UPDATED TO THE LATEST VERSION*. If it is not, flash **biosupdate.img** on a thumb drive and update.
+**MAKE SURE YOUR LENOVO BIOS IS UPDATED TO THE LATEST VERSION.** If it is not, flash *biosupdate.img* on a thumb drive and update.
 
 Copy the EFI folder in the EFI partition of your booting drive.
 Check your BIOS settings:
@@ -43,20 +43,19 @@ Check your BIOS settings:
 
 Power Management is natively supported on i5 and i7 models. Use CPUFriend & CPUFriendFriend to finetune.
 
-***
 
 ### Post-install
 
 It is mandatory to install [HeliPort](https://github.com/OpenIntelWireless) to make Intel Wireless work. It is included in the repo and updated regularly, but you can build your own kext and app from the original repository (recommended)
-SMBIOS should be fine for any laptop but I *STRONGLY* recommend to generate a new Serial Number and UUID to use Apple services. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) does this.
+
+SMBIOS should be fine for any laptop but I **STRONGLY** recommend to generate a new Serial Number and UUID to use Apple services. [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) does this.
 
 **Airdrop & Handoff are not supported yet.**
 
-***
 
 ## Notes
 
-I'm using a T460s with macOS as a daily driver so this repo will be updated along with OpenIntelWireless & every macOS update. You shouldn't use macOS on a production machine (I do it though. It works good). 
-Risks include data loss, bricking the system, losing hair and temper, starting a war, discovering life's true meaning, etc.
+*I'm using a T460s with macOS as a daily driver so this repo will be updated along with OpenIntelWireless & every macOS update. You shouldn't use macOS on a production machine (I do it though. It works good). 
+Risks include data loss, bricking the system, losing hair and temper, starting a war, discovering life's true meaning, etc.*
 
 Wireless WAN & Fingerprint Reader are not supported. 
