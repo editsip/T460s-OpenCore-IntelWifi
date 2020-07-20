@@ -3,7 +3,7 @@
 
 Install MacOS Catalina 10.15.6 on T460s laptops with built-in Intel Wireless.
 
-**Using OpenCore 0.5.9!***
+**Using OpenCore 0.5.9!**
 
 
 ***
